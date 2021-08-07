@@ -29,4 +29,30 @@ var marks = {
     abhiram: 87,
     tushant: 93 
 }
-console.log(marks)
+console.log(marks);
+
+// Boolians
+var a = true;
+var b = false;
+console.log(a,b);
+
+// var und = undefined;
+var und;
+console.log(und);
+
+var n = null;
+console.log(n);
+
+/*
+At a high level there are two types of data types in javascript 
+1. Primitive data types: undefined, null, number, string, booliean, symbol
+2. Reference data types: Arrays and Objects
+*/
+
+var arr = [1,2,3,4,5,6,7];
+
+
+
+
+
+
