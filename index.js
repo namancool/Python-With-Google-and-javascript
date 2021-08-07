@@ -13,3 +13,20 @@
 var number1 = 54;
 var number2 = 67;
 console.log(number1 + number2);
+
+// 4. Datatypes in JavaScript
+// Numbers 
+var num1 = 432;
+var num2 = 124;
+
+// Strings
+var str1 = "This is a string";
+var str2 = 'This is also a string';
+
+// Objects
+var marks = {
+    naman: 99.99,
+    abhiram: 87,
+    tushant: 93 
+}
+console.log(marks)
