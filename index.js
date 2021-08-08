@@ -12,7 +12,7 @@
 // What are variables? - Container to store data values 
 var number1 = 54;
 var number2 = 67;
-console.log(number1 + number2);
+//console.log(number1 + number2);
 
 // 4. Datatypes in JavaScript
 // Numbers 
@@ -29,19 +29,19 @@ var marks = {
     abhiram: 87,
     tushant: 93 
 }
-console.log(marks);
+//console.log(marks);
 
 // Boolians
 var a = true;
 var b = false;
-console.log(a,b);
+//console.log(a,b);
 
 // var und = undefined;
 var und;
-console.log(und);
+//console.log(und);
 
 var n = null;
-console.log(n);
+//console.log(n);
 
 /*
 At a high level there are two types of data types in javascript 
@@ -50,8 +50,16 @@ At a high level there are two types of data types in javascript
 */
 
 var arr = [1,2,"bag",3,"blue",4,"naman",5,6,7];
-console.log(arr);
+//console.log(arr);
 
+// Operators in javascript
+//Arithmatic operators
+var a1 = 23;
+var b1 = 45;
+console.log("The value of a1 + b1 is :", a1+b1);
+console.log("The value of a1 - b1 is :", a1-b1);
+console.log("The value of a1 * b1 is :", a1*b1);
+console.log("The value of a1 / b1 is :", a1/b1);
 
 
 
