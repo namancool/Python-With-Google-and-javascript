@@ -70,4 +70,12 @@ var c = b1;
 
 console.log("The value of c is :", c);
 
+//Comparision Operators
+var x = 12;
+var y = 10;
+console.log(x!=y);
+console.log(x==y);
+console.log(x>=y);
+console.log(x<=y);
+
 
