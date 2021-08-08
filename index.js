@@ -61,6 +61,13 @@ console.log("The value of a1 - b1 is :", a1-b1);
 console.log("The value of a1 * b1 is :", a1*b1);
 console.log("The value of a1 / b1 is :", a1/b1);
 
+//Assignment operaotors
+var c = b1;
+// c += 4;
+// c -= 4;
+// c *= 4;
+// c /= 5;
 
+console.log("The value of c is :", c);
 
 
