@@ -80,12 +80,21 @@ console.log("The value of c is :", c);
 
 // Logical Operators
 
-console.log(true && true);
-console.log(false && false);
-console.log(true && false);
-console.log(false && true);
+// Logical and
+// console.log(true && true);
+// console.log(false && false);
+// console.log(true && false);
+// console.log(false && true);
 
+// Logic or 
+console.log(true || false);
+console.log(true || true);
+console.log(false || true);
+console.log(false || false);
 
+// Logical not
+console.log(!true);
+console.log(!false);
 
 
 
