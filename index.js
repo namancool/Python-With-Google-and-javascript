@@ -87,14 +87,24 @@ console.log("The value of c is :", c);
 // console.log(false && true);
 
 // Logic or 
-console.log(true || false);
-console.log(true || true);
-console.log(false || true);
-console.log(false || false);
+// console.log(true || false);
+// console.log(true || true);
+// console.log(false || true);
+// console.log(false || false);
 
 // Logical not
-console.log(!true);
-console.log(!false);
+// console.log(!true);
+// console.log(!false);
+
+function avg(a,b)
+{
+    return (a+b)/2;
+}
+c1 = avg(15,35);
+c2 = avg(24,16);
+console.log(c1);
+console.log(c2);
+
 
 
 
