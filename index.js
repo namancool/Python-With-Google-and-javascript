@@ -109,8 +109,15 @@ c2 = avg(24,16);
 
 // Conditionals in javascript
 
-
-
+var age = 19;
+if(age>=18)
+{
+    console.log("You are an adult");
+}
+else
+{
+    console.log("You are not an adult(Hi!!! Kid)");
+}
 
 
 
