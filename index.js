@@ -96,14 +96,19 @@ console.log("The value of c is :", c);
 // console.log(!true);
 // console.log(!false);
 
+// Functions in javascript
 function avg(a,b)
 {
     return (a+b)/2;
 }
+// DRY = Do not repeat yourself
 c1 = avg(15,35);
 c2 = avg(24,16);
-console.log(c1);
-console.log(c2);
+// console.log(c1);
+// console.log(c2);
+
+// Conditionals in javascript
+
 
 
 
