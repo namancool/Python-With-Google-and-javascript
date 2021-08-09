@@ -71,11 +71,27 @@ var c = b1;
 console.log("The value of c is :", c);
 
 //Comparision Operators
-var x = 12;
-var y = 10;
-console.log(x!=y);
-console.log(x==y);
-console.log(x>=y);
-console.log(x<=y);
+// var x = 12;
+// var y = 10;
+// console.log(x!=y);
+// console.log(x==y);
+// console.log(x>=y);
+// console.log(x<=y);
+
+// Logical Operators
+
+console.log(true && true);
+console.log(false && false);
+console.log(true && false);
+console.log(false && true);
+
+
+
+
+
+
+
+
+
 
 
