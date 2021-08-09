@@ -119,9 +119,24 @@ else
     console.log("You are not an adult(Hi!!! Kid)");
 }
 
-
-
-
+//If-else ladder
+if(age >16)
+{
+    console.log("You are a teenager");
+}
+else if(age >12)
+{
+    console.log("You are still a teenager");
+}
+else if(age =12)
+{
+    console.log("You are soon to be teenager");
+}
+else
+{
+    console.log("You are a kid")
+}
+console.log("End")
 
 
 
