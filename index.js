@@ -143,11 +143,16 @@ console.log("End")
 // Loops in javascript
 var arr = [1,2,3,4,5,6,7,8,9];
 // console.log(arr);
-for(var i = 0; i<arr.length;i++)
+for(var i = 0; i<arr.length;i++) // for loop
 {
     console.log(arr[i]);
 }
 
+// for each loops
+arr.forEach(function(element)
+{
+    console.log(element);
+})
 
 
 
