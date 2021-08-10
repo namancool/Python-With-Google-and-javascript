@@ -151,7 +151,7 @@ for(var i = 0; i<arr.length;i++) // for loop
 // for each loops
 arr.forEach(function(element)
 {
-    console.log(element);
+    console.log(element); 
 })
 
 
