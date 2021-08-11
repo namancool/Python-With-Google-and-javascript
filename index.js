@@ -27,7 +27,7 @@ var str2 = 'This is also a string';
 var marks = {
     naman: 99.99,
     abhiram: 87,
-    tushant: 93 
+    tushant: 93
 }
 //console.log(marks);
 
@@ -49,17 +49,17 @@ At a high level there are two types of data types in javascript
 2. Reference data types: Arrays and Objects
 */
 
-var arr = [1,2,"bag",3,"blue",4,"naman",5,6,7];
+var arr = [1, 2, "bag", 3, "blue", 4, "naman", 5, 6, 7];
 //console.log(arr);
 
 // Operators in javascript
 //Arithmatic operators
 var a1 = 23;
 var b1 = 45;
-console.log("The value of a1 + b1 is :", a1+b1);
-console.log("The value of a1 - b1 is :", a1-b1);
-console.log("The value of a1 * b1 is :", a1*b1);
-console.log("The value of a1 / b1 is :", a1/b1);
+console.log("The value of a1 + b1 is :", a1 + b1);
+console.log("The value of a1 - b1 is :", a1 - b1);
+console.log("The value of a1 * b1 is :", a1 * b1);
+console.log("The value of a1 / b1 is :", a1 / b1);
 
 //Assignment operaotors
 var c = b1;
@@ -97,25 +97,22 @@ console.log("The value of c is :", c);
 // console.log(!false);
 
 // Functions in javascript
-function avg(a,b)
-{
-    return (a+b)/2;
+function avg(a, b) {
+    return (a + b) / 2;
 }
 // DRY = Do not repeat yourself
-c1 = avg(15,35);
-c2 = avg(24,16);
+c1 = avg(15, 35);
+c2 = avg(24, 16);
 // console.log(c1);
 // console.log(c2);
 
 // Conditionals in javascript
 
 var age = 19;
-if(age>=18)
-{
+if (age >= 18) {
     console.log("You are an adult");
 }
-else
-{
+else {
     console.log("You are not an adult(Hi!!! Kid)");
 }
 
@@ -141,7 +138,7 @@ console.log("End")
 */
 
 // Loops in javascript
-var arr = [1,2,3,4,5,6,7,8,9];
+var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 // console.log(arr);
 // for(var i = 0; i<arr.length;i++) // for loop
 // {
@@ -149,11 +146,13 @@ var arr = [1,2,3,4,5,6,7,8,9];
 // }
 
 // for each loops
-arr.forEach(function(element)
-{
-    console.log(element);
-})
+// arr.forEach(function(element)
+// {
+//     console.log(element);
+// })
 
-
+// let j = 0;
+// const ac = 0;
+// ac++;
 
 
