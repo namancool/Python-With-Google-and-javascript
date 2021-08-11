@@ -139,16 +139,16 @@ console.log("End")
 
 // Loops in javascript
 var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-console.log(arr);
-for(var i = 0; i<arr.length;i++) // for loop
-{
-    if(i==4)
-    {
-        // break;
-        continue;
-    }
-    console.log(arr[i]);
-}
+// console.log(arr);
+// for(var i = 0; i<arr.length;i++) // for loop
+// {
+//     if(i==4)
+//     {
+//         // break;
+//         continue;
+//     }
+//     console.log(arr[i]);
+// }
 
 // for each loops
 // arr.forEach(function(element)
@@ -169,4 +169,12 @@ let j = 0;
 //     console.log(arr[j]);
 //     j++;
 // }while(j< arr.length)
+
+let MyArr = ["car", "bike", "tv", "laptop", 43, 76.23, true, null];
+// Arrays Methods
+
+
+
+
+
 
