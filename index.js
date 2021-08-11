@@ -172,9 +172,10 @@ let j = 0;
 
 let MyArr = ["car", "bike", "tv", "laptop", 43, 76.23, true, null];
 // Arrays Methods
-
-
-
+console.log(MyArr.length);
+console.log(MyArr);
+MyArr.pop();
+console.log(MyArr);
 
 
 
