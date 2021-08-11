@@ -154,10 +154,14 @@ var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 // const ac = 0;
 // ac++;
 let j = 0;
-while(j<arr.length)
+// while(j<arr.length)
+// {
+//     console.log(arr[j]);
+//     j++;
+// }
+do
 {
     console.log(arr[j]);
     j++;
-}
-
+}while(j< arr.length)
 
