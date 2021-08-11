@@ -175,7 +175,8 @@ let MyArr = ["car", "bike", "tv", "laptop", 43, 76.23, true, null];
 console.log(MyArr.length);
 console.log(MyArr);
 MyArr.pop();
-MyArr.push("Naman")
+MyArr.push("Naman");
+MyArr.shift();
 console.log(MyArr);
 
 
