@@ -177,9 +177,11 @@ console.log(MyArr.length);
 // MyArr.pop();
 // MyArr.push("Naman");
 // MyArr.shift();
-const Newlen = MyArr.unshift("Naman");
-console.log(Newlen);
-console.log(MyArr);
+// const Newlen = MyArr.unshift("Naman");
+// console.log(Newlen);
+// console.log(MyArr);
 
-
-
+// String Methods in javascript
+let myFirstString = "Naman is a bad boy" ;
+console.log(myFirstString.length);
+console.log(myFirstString.indexOf("bad"));
