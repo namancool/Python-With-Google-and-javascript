@@ -192,8 +192,14 @@ let myFirstString = "Naman is a bad boy, he is so bad" ;
 // console.log(myFirstString.slice(9,18));
 // console.log(myFirstString.replace("Naman","Rohan"));
 
-
-
+//Dates in javascript
+MyDate = new Date();
+console.log(MyDate);
+console.log(MyDate.getTime());
+console.log(MyDate.getFullYear());
+console.log(MyDate.getDay());
+console.log(MyDate.getMinutes());
+console.log(MyDate.getHours());
 
 
 
