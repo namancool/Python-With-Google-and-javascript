@@ -182,6 +182,24 @@ console.log(MyArr.length);
 // console.log(MyArr);
 
 // String Methods in javascript
-let myFirstString = "Naman is a bad boy" ;
-console.log(myFirstString.length);
-console.log(myFirstString.indexOf("bad"));
+let myFirstString = "Naman is a bad boy, he is so bad" ;
+// console.log(myFirstString.length);
+// console.log(myFirstString.indexOf("bad"));
+// console.log(myFirstString.lastIndexOf("bad"));
+
+console.log(myFirstString.slice(0,8));
+console.log(myFirstString.slice(20,32));
+console.log(myFirstString.slice(9,18));
+
+
+
+
+
+
+
+
+
+
+
+
+
