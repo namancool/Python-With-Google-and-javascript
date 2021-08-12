@@ -187,9 +187,10 @@ let myFirstString = "Naman is a bad boy, he is so bad" ;
 // console.log(myFirstString.indexOf("bad"));
 // console.log(myFirstString.lastIndexOf("bad"));
 
-console.log(myFirstString.slice(0,8));
-console.log(myFirstString.slice(20,32));
-console.log(myFirstString.slice(9,18));
+// console.log(myFirstString.slice(0,8));
+// console.log(myFirstString.slice(20,32));
+// console.log(myFirstString.slice(9,18));
+// console.log(myFirstString.replace("Naman","Rohan"));
 
 
 
