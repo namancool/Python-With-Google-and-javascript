@@ -211,6 +211,10 @@ console.log(ElemClass);
 // ElemClass[1].style.background = "green";
 ElemClass[0].classList.add("bg-primary");
 ElemClass[0].classList.add("text-success");
+console.log(Elem.innerHTML);
+console.log(Elem.innerText);
+console.log(ElemClass[0].innerHTML);
+console.log(ElemClass[0].innerText);
 
 
 
