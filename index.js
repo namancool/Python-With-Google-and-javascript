@@ -201,9 +201,15 @@ let myFirstString = "Naman is a bad boy, he is so bad" ;
 // console.log(MyDate.getMinutes());
 // console.log(MyDate.getHours());
 
-// 
+// DOM Manipulation
+let Elem = document.getElementById('click');
+console.log(Elem);
 
-
+let ElemClass = document.getElementsByClassName('container');
+console.log(ElemClass);
+ElemClass[0].style.background = "yellow";
+ElemClass[1].style.background = "green";
+ElemClass[0].classList.add("bg-primary");
 
 
 
