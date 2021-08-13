@@ -207,9 +207,10 @@ console.log(Elem);
 
 let ElemClass = document.getElementsByClassName('container');
 console.log(ElemClass);
-ElemClass[0].style.background = "yellow";
-ElemClass[1].style.background = "green";
+// ElemClass[0].style.background = "yellow";
+// ElemClass[1].style.background = "green";
 ElemClass[0].classList.add("bg-primary");
+ElemClass[0].classList.add("text-success");
 
 
 
