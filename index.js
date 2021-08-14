@@ -231,4 +231,18 @@ createdElement2.innerText = "This is a new paragraph in bold";
 tn[0].replaceChild(createdElement2, createdElement);
 // removeChild(element); ---> removes an element
 
+// Selecting using  query 
+Sel = document.querySelector('.container');
+console.log(Sel);
+Sel = document.querySelectorAll('.container');
+console.log(Sel);
+
+function clicked(){
+    console.log('The button was clicked');
+}
+window.onload = function(){
+    console.log('The document was loaded');
+}
+
+
 
