@@ -250,18 +250,43 @@ firstContainer.addEventListener('click',function(){
     console.log('Click on container');
 
 })
-firstContainer.addEventListener('mouseover',function(){
-    console.log('Mouse on container');
-})
-firstContainer.addEventListener('mouseout',function(){
-    console.log('Mouse out of container');
-})
-let prevHTML = document.querySelectorAll('.container')[1].innerHTML;
-firstContainer.addEventListener('mouseup',function(){
-    document.querySelectorAll('.container')[1].innerHTML = prevHTML;
-    console.log('Mouse up when clicked on container');
-})
-firstContainer.addEventListener('mousedown',function(){
-    document.querySelectorAll('.container')[1].innerHTML = "<b> We have clicked</b>"
-    console.log('Mouse down when clicked on container');
-})
+// firstContainer.addEventListener('mouseover',function(){
+//     console.log('Mouse on container');
+// })
+// firstContainer.addEventListener('mouseout',function(){
+//     console.log('Mouse out of container');
+// })
+
+// let prevHTML = document.querySelectorAll('.container')[1].innerHTML;
+// firstContainer.addEventListener('mouseup',function(){
+//     document.querySelectorAll('.container')[1].innerHTML = prevHTML;
+//     console.log('Mouse up when clicked on container');
+// })
+// firstContainer.addEventListener('mousedown',function(){
+//     document.querySelectorAll('.container')[1].innerHTML = "<b> We have clicked</b>"
+//     console.log('Mouse down when clicked on container');
+// })
+
+// Arrow function
+// function Sum(a,b)
+// {
+//     return a + b;
+// }
+// Sum = (a,b)=>
+// {
+//     return a + b;
+// }
+
+timeout = ()=>{
+    console.log("I am Naman using setTimeout");
+}
+timeout2 = ()=>{
+    console.log("I am Naman using setTimeout2 which is set for 2 sec and after 2 sec u will see setTimeout");
+}
+// SetTimeout and SetInterval
+setTimeout(timeout, 4000);
+setTimeout(timeout2, 2000);
+
+
+
+
