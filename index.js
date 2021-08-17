@@ -283,9 +283,13 @@ timeout = ()=>{
 timeout2 = ()=>{
     console.log("I am Naman using setTimeout2 which is set for 2 sec and after 2 sec u will see setTimeout");
 }
+interval = ()=>{
+    console.log("I am Naman using setInterval, it repeatedly prints the interval in given time");
+}
 // SetTimeout and SetInterval
 setTimeout(timeout, 4000);
 setTimeout(timeout2, 2000);
+setInterval(interval, 2000);
 
 
 
