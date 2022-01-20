@@ -1,7 +1,9 @@
 #OOP
 class PlayerCharacter:
+    #class object attribute
+    membership = True
     def __init__(self,name,roll_number,age):
-        self.name = name
+        self.name = name #attributes
         self.roll_number = roll_number
         self.age = age
 
