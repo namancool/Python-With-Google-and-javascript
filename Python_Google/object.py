@@ -9,7 +9,7 @@ class PlayerCharacter:
 
 
     def run(self):
-        print('run')
+        print(f'my name is {self.name}')
         return 'done'
 
 player1 = PlayerCharacter('NAMAN SHARMA','20SCSE1180020',19)
@@ -21,9 +21,10 @@ print(player1.age)
 print(player2.name)
 print(player2.roll_number)
 print(player2.age)
-print(player2.run())
+print(player1.run())
 print(player1)
 print(player2)
+print(player1.membership)
 
 
 
