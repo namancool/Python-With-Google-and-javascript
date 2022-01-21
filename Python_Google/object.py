@@ -3,13 +3,14 @@ class PlayerCharacter:
     #class object attribute
     membership = True
     def __init__(self,name,roll_number,age):
-        self.name = name #attributes
-        self.roll_number = roll_number
-        self.age = age
+        if(PlayerCharacter.membership):
+            self.name = name #attributes
+            self.roll_number = roll_number
+            self.age = age
 
 
     def run(self):
-        print(f'my name is {self.name}')
+        print(f'My name is {self.name}')
         return 'done'
 
 player1 = PlayerCharacter('NAMAN SHARMA','20SCSE1180020',19)
