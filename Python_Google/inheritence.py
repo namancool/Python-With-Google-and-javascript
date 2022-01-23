@@ -28,3 +28,4 @@ print(isinstance(Sniper1,Sniper))
 print(isinstance(Gunner1,Sniper))
 print(isinstance(Gunner1,Gunner))
 print(isinstance(Gunner1,User))#imp Gunner and Sniper are subclass of User
+print(isinstance(Sniper1,object))#gives true bcz object is a base class in python 
